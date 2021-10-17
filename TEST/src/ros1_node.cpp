@@ -1,4 +1,5 @@
-#include "ros/ros.h"  //ROS 기본 헤더파일
+//#include "ros/ros.h"  //ROS 기본 헤더파일
+#include <iostream>
  
 int main(int argc, char **argv) //c++ 의 기본 함수형태
 {
