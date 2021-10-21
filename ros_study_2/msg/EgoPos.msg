@@ -1,0 +1,3 @@
+float64 posx_ego
+float64 posy_ego
+float64 psi_ego
