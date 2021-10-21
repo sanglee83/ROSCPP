@@ -1,0 +1,4 @@
+<launch>
+  <node name="ros1_study" pkg="ros_study"  type="ros1_study" respawn="true" output="screen" />
+  <node name="ros1_ext_study" pkg="ros_study"  type="ros1_ext_study" respawn="true" output="screen" />
+</launch>
