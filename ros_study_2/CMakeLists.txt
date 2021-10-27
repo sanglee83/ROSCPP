@@ -2,20 +2,18 @@ cmake_minimum_required(VERSION 3.0.2)
 project(ros_study_2)
 
 find_package(catkin REQUIRED COMPONENTS
-  rospy
-  roscpp
-  message_generation
-  
+  rospy  # ROS Python Package 
+  roscpp # ROS C++ Package
+  message_generation # Custom Message Generation Package
 )
-
 
 
 ################################################
 ## Declare ROS messages, services and actions ##
 ######################## ########################
 add_message_files(
-  FILES
-  EgoPos.msg
+  FILES   # FILES: Describe Custom Message File Name
+  Pos.msg # Custom Message File
 )
 
 generate_messages(
